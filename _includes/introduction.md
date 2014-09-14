@@ -1,0 +1,3 @@
+The goal of our project is to create a secure, online registry where a user could enter in a patient's identifier (either name or unique number) and it would generate a list of studies that the patient is involved in, or is planned to be involved in. It would also provide a way to manage patients that are enrolled or are eligible to be enrolled in various studies.
+
+Currently the UNC Kidney Center has around 500 patients in their database, and currently encounters problems where as they do an annual assessment, they would miss or lose patients that failed to enroll in a study. This new registry would provide easy and organization in terms of keeping studies and patients up to date and on schedule.
