@@ -54,6 +54,16 @@
 				{{ personas | markdownify }}
 				
 			</div>
+		</div> 
+
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Use Cases</h2>
+
+				{% capture use_cases %}{% include use_cases.md %}{% endcapture %}
+				{{ use_cases | markdownify }}
+				
+			</div>
 		</div>
 		
 		<div class="row">
