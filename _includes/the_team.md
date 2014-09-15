@@ -5,7 +5,7 @@
 
 		<b>Lead Developer</b><br>
 		gberger@unc.edu <br>
-		(919) 593-7618
+		<a href="tel:19195937618">(919) 593-7618</a>
 	
 	</div>
 	<div class="col-md-4">
@@ -14,7 +14,7 @@
 
 		<b>Project Manager</b><br>
 		tonybo@live.unc.edu<br>
-		(704) 281-4633
+		<a href="tel:17042814633">(704) 281-4633</a>
 		
 	</div>
 	<div class="col-md-4">
@@ -23,7 +23,7 @@
 
 		<b>Editor &amp; Client Manager</b><br>
 		slfenton@gmail.com<br>
-		(919) 619-8872
+		<a href="tel:19196198872">(919) 619-8872</a>
 		
 	</div>
 </div>
