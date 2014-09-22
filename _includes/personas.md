@@ -18,3 +18,16 @@ Therefore, if he's lost at how to do something like filtering out patients for t
 Having experience as a TA, he also finds it easy to guide other people navigating computer software. 
 
 He is single, likes exercising and playing videogames in his gaming laptop. 
+
+
+### John Douglas
+
+John is a statistician at the UNC Kidney Center.  He’s used to working with technology since he needs to use various programs and applications when working with all the data that the Kidney Center provides.  However, as a statistician only, he doesn’t need the ability to edit or modify patient information, or even add new studies or surveys.  
+
+What would work best for John is something similar to that of a “read-only” mode, so that he can access and download patient, study, or survey data (possibly Excel) so he can use it for his work.  He wouldn't be able to accidentally modify information so that the database can stay accurate with data.
+
+He is happily married and likes to fish in his downtime.
+
+
+
+
