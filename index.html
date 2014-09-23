@@ -9,84 +9,105 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Registry Management for the UNC Kidney Center</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-vertical-tabs.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	<div class="container">
-			
-		<h1>Registry Management for the UNC Kidney Center</h1>
-
-
-		<div class="row">
-			<div class="col-md-6">
-
-				<h2>Introduction</h2>
-
-				{% capture introduction %}{% include introduction.md %}{% endcapture %}
-				{{ introduction | markdownify }}
-
-			</div>
-
-			<div class="col-md-6">
-				<h2>The Team</h2>
-
-				{% capture the_team %}{% include the_team.md %}{% endcapture %}
-				{{ the_team | markdownify }}
-
-			</div>
-		</div>
+<div class="container">
 		
-		<div class="row">
-			<div class="col-md-6">
+	<h1>Registry Management for the UNC Kidney Center</h1>
 
-				<h2>User Stories</h2>
 
-				{% capture user_stories %}{% include user_stories.md %}{% endcapture %}
-				{{ user_stories | markdownify }}
-				
-			</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h2>The Team</h2>
 
-			<div class="col-md-6">
-
-				<h2>Personas</h2>
-
-				{% capture personas %}{% include personas.md %}{% endcapture %}
-				{{ personas | markdownify }}
-				
-			</div>
-		</div> 
-
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Use Cases</h2>
-
-				{% capture use_cases %}{% include use_cases.md %}{% endcapture %}
-				{{ use_cases | markdownify }}
-				
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-6">
-			
-				<h2>Schedule of Meetings</h2>
-
-				{% capture schedule_of_meetings %}{% include schedule_of_meetings.md %}{% endcapture %}
-				{{ schedule_of_meetings | markdownify }}
-					
-			</div>
-
-			<div class="col-md-6">
-
-				<h2>Journal of Decisions</h2>
-
-				{% capture journal_of_decisions %}{% include journal_of_decisions.md %}{% endcapture %}
-				{{ journal_of_decisions | markdownify }}
-				
-			</div>
+			{% capture the_team %}{% include the_team.md %}{% endcapture %}
+			{{ the_team | markdownify }}
 		</div>
 
+		<div class="col-md-6">
+			<h2>The Clients</h2>
+
+			{% capture the_clients %}{% include the_clients.md %}{% endcapture %}
+			{{ the_clients | markdownify }}
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 text-right">
+			<a class="btn btn-primary" href='mailto:gberger@unc.edu,tonybo@live.unc.edu,slfenton@gmail.com,maria_ferris@med.unc.edu,tonybo@live.unc.edu,kristi_bickford@med.unc.edu'><i class="glyphicon glyphicon-envelope"></i> Email Us</a>	
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-3"> <!-- required for floating -->
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs tabs-left">
+				<li class="active"><a href="#introduction" data-toggle="tab">Introduction</a></li>
+				<li><a href="#user-stories" data-toggle="tab">User Stories</a></li>
+				<li><a href="#personas" data-toggle="tab">Personas</a></li>
+				<li><a href="#use-cases" data-toggle="tab">Use Cases</a></li>
+				<li><a href="#schedule-meetings" data-toggle="tab">Schedule of Meetings</a></li>
+				<li><a href="#journal-decisions" data-toggle="tab">Journal of Decisions</a></li>
+				<li><a href="#the-code" data-toggle="tab">Deliverables</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-9">
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div class="tab-pane active" id="introduction">
+					<h2>Introduction</h2>
+
+					{% capture introduction %}{% include introduction.md %}{% endcapture %}
+					{{ introduction | markdownify }}
+				</div>
+				<div class="tab-pane" id="user-stories">
+					<h2>User Stories</h2>
+
+					{% capture user_stories %}{% include user_stories.md %}{% endcapture %}
+					{{ user_stories | markdownify }}
+				</div>
+				<div class="tab-pane" id="personas">
+					<h2>Personas</h2>
+
+					{% capture personas %}{% include personas.md %}{% endcapture %}
+					{{ personas | markdownify }}
+				</div>
+				<div class="tab-pane" id="use-cases">
+					<h2>Use Cases</h2>
+
+					{% capture use_cases %}{% include use_cases.md %}{% endcapture %}
+					{{ use_cases | markdownify }}
+				</div>
+				<div class="tab-pane" id="schedule-meetings">
+					<h2>Schedule of Meetings</h2>
+
+					{% capture schedule_of_meetings %}{% include schedule_of_meetings.md %}{% endcapture %}
+					{{ schedule_of_meetings | markdownify }}
+				</div>
+				<div class="tab-pane" id="journal-decisions">
+					<h2>Journal of Decisions</h2>
+
+					{% capture journal_of_decisions %}{% include journal_of_decisions.md %}{% endcapture %}
+					{{ journal_of_decisions | markdownify }}
+				</div>
+				<div class="tab-pane" id="the-code">
+					<h2>Deliverables</h2>
+
+					{% capture deliverables %}{% include deliverables.md %}{% endcapture %}
+					{{ deliverables | markdownify }}
+				</div>
+			</div>
+		</div>  
+	</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 

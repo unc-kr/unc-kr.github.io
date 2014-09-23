@@ -1,7 +1,7 @@
 <div class="row-fluid">
 	<div class="col-md-4">
 	
-		<h3>Guilherme Berger</h3>
+		<h4>Guilherme Berger</h4>
 
 		<b>Lead Developer</b><br>
 		gberger@unc.edu <br>
@@ -10,7 +10,7 @@
 	</div>
 	<div class="col-md-4">
 
-		<h3>Tony Bo</h3>
+		<h4>Tony Bo</h4>
 
 		<b>Project Manager</b><br>
 		tonybo@live.unc.edu<br>
@@ -19,7 +19,7 @@
 	</div>
 	<div class="col-md-4">
 
-		<h3>Stephanie Fenton</h3>
+		<h4>Stephanie Fenton</h4>
 
 		<b>Editor &amp; Client Manager</b><br>
 		slfenton@gmail.com<br>
@@ -27,5 +27,3 @@
 		
 	</div>
 </div>
-
-<a href='mailto:gberger@unc.edu,tonybo@live.unc.edu,slfenton@gmail.com'><i class="glyphicon glyphicon-envelope"></i> Email Us</a>
