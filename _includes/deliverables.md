@@ -3,7 +3,7 @@
 The code is [privately hosted on GitHub](https://github.com/unc-kr). 
 Please request us access. 
 						
-* The **[unc-kr](http://github.com/unc-kr/unc-kr)** repository will host the actual code.
+* The **[unc-trx-api](http://github.com/unc-kr/unc-trx-api)** repository will host the actual code.
 
 * The **[unc-kr.github.io](http://github.com/unc-kr/unc-kr.github.io)** repository hosts this landing page.
 
